@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-float lastTemperature;
+static float lastTemperature = 50.0;
 
 float fahrenheitFromCelsius(float celsius) {
   lastTemperature = celsius;
